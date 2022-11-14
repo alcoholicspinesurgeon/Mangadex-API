@@ -20,7 +20,7 @@
 import json, httpclient, net, strutils, times
 
 var
-  baseurl:string = "https://api.mangadex.org"
+  baseurl:string = "https://api.mangadex.org" #Gotta change this to a pass from md_login()
   sessionId:string
   refreshId:string
   expires:DateTime
